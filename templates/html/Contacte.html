@@ -3,7 +3,7 @@
 <head>
     <link rel="shortcut icon" href="static/images/logo-icon2.png"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/Contacte.css">
+    <link rel="stylesheet" href="static/css/Contacte.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <meta charset="utf-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -23,12 +23,12 @@
 <nav> 
 <ul class="nav_links">
 <ul class="nav_links">
-<li><a href="../Index.html">Acasa</a></li>
-<li><a href="../html/Galerie.html">Galerie</a></li>
-<li><a href="../html/Orar.html">Orar</a></li>
-<li><a href="#">Contacte</a></li>
-<li><a href="../html/Admitere.html">Admitere</a></li>
-<li><a href="../html/TransparentaFinanciara.html">Transparenta financiara</a></li>
+<li><a href="{{url_for('index_page')}}">Acasa</a></li>
+<li><a href="{{ url_for('gallery') }}">Galerie</a></li>
+<li><a href=" {{url_for('orar')}} ">Orar</a></li>
+<li><a href="{{url_for('contact')}}">Contacte</a></li>
+<li><a href="{{url_for('admitere')}}">Admitere</a></li>
+<li><a href="{{url_for('financial')}}">Transparenta financiara</a></li>
 
     </ul></ul>
 </nav>

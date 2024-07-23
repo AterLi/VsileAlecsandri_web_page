@@ -23,12 +23,12 @@
 <nav> 
 <ul class="nav_links">
 <ul class="nav_links">
-<li><a href="#">Acasa</a></li>
-<li><a href="html/Galerie.html">Galerie</a></li>
-<li><a href="html/Orar.html">Orar</a></li>
-<li><a href="html/Contacte.html">Contacte</a></li>
-<li><a href="html/Admitere.html">Admitere</a></li>
-<li><a href="html/TransparentaFinanciara.html">Transparenta financiara</a></li>
+<li><a href="{{url_for('index_page')}}">Acasa</a></li>
+<li><a href="{{ url_for('gallery') }}">Galerie</a></li>
+<li><a href=" {{url_for('orar')}} ">Orar</a></li>
+<li><a href="{{url_for('contact')}}">Contacte</a></li>
+<li><a href="{{url_for('admitere')}}">Admitere</a></li>
+<li><a href="{{url_for('financial')}}">Transparenta financiara</a></li>
 
     </ul></ul>
 </nav>
@@ -118,17 +118,17 @@
 	</div>
 
 	<div class="containerdespre">
-		<a href="html/Noutati.html"><button class="button" >Mai multe</button></a>
+		<a href="{{url_for('noutati')}}"><button class="button" >Mai multe</button></a>
 	</div><br>
 <! –– ....................................................Rubrica material important(pdf) ––>	
 	<p class="title">Material important:</p>
 	<div class="containerdespre">
 		<div class="pdfcolection" style="width:500px">
 			<ul class="">
-            <li class="fa fa-book" style="font-size:24px"></li><a href="pdf/Plan de lucru Nou.pdf" target="_blank">Plan de lucru</a><br>
-			<li class="fa fa-book" style="font-size:24px"></li><a href="pdf/Statutul liceului.pdf" target="_blank">Statutul liceului</a><br>
-			<li class="fa fa-book" style="font-size:24px"></li><a href="pdf/Proiectul meu nou.pdf" target="_blank">Proiectul liceului</a><br>
-			<li class="fa fa-book" style="font-size:24px"></li><a href="pdf/Regulamentul liceului.pdf" target="_blank">Regulamentul liceului</a><br>
+            <li class="fa fa-book" style="font-size:24px"></li><a href="static/pdf/Plan de lucru Nou.pdf" target="_blank">Plan de lucru</a><br>
+			<li class="fa fa-book" style="font-size:24px"></li><a href="static/pdf/Statutul liceului.pdf" target="_blank">Statutul liceului</a><br>
+			<li class="fa fa-book" style="font-size:24px"></li><a href="static/pdf/Proiectul meu nou.pdf" target="_blank">Proiectul liceului</a><br>
+			<li class="fa fa-book" style="font-size:24px"></li><a href="static/pdf/Regulamentul liceului.pdf" target="_blank">Regulamentul liceului</a><br>
 			
 		</ul>
 		</div>

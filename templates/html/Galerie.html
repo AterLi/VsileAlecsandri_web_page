@@ -24,12 +24,12 @@
 <nav> 
 <ul class="nav_links">
 <ul class="nav_links">
-<li><a href="/Index.html">Acasa</a></li>
-<li><a href="#">Galerie</a></li>
-<li><a href="/html/Orar.html">Orar</a></li>
-<li><a href="/html/Contacte.html">Contacte</a></li>
-<li><a href="/html/Admitere.html">Admitere</a></li>
-<li><a href="/html/TransparentaFinanciara.html">Transparenta financiara</a></li>
+<li><a href="{{url_for('index_page')}}">Acasa</a></li>
+<li><a href="{{ url_for('gallery') }}">Galerie</a></li>
+<li><a href=" {{url_for('orar')}} ">Orar</a></li>
+<li><a href="{{url_for('contact')}}">Contacte</a></li>
+<li><a href="{{url_for('admitere')}}">Admitere</a></li>
+<li><a href="{{url_for('financial')}}">Transparenta financiara</a></li>
 
     </ul></ul>
 </nav>

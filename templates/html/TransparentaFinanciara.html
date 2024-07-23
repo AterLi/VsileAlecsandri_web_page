@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="shortcut icon" href="static/images/logo-icon2.png"> 
-    <link rel="stylesheet" href="../css/Transparent.css">
+    <link rel="stylesheet" href="static/css/Transparent.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <meta charset="utf-8" />
@@ -22,12 +22,12 @@
 <nav> 
 <ul class="nav_links">
 <ul class="nav_links">
-<li><a href="../Index.html">Acasa</a></li>
-<li><a href="../html/Galerie.html">Galerie</a></li>
-<li><a href="../html/Orar.html">Orar</a></li>
-<li><a href="../html/Contacte.html">Contacte</a></li>
-<li><a href="../html/Admitere.html">Admitere</a></li>
-<li><a href="#">Transparenta financiara</a></li>
+<li><a href="{{url_for('index_page')}}">Acasa</a></li>
+<li><a href="{{ url_for('gallery') }}">Galerie</a></li>
+<li><a href=" {{url_for('orar')}} ">Orar</a></li>
+<li><a href="{{url_for('contact')}}">Contacte</a></li>
+<li><a href="{{url_for('admitere')}}">Admitere</a></li>
+<li><a href="{{url_for('financial')}}">Transparenta financiara</a></li>
 
     </ul></ul>
 </nav>
@@ -48,7 +48,7 @@
         <div class="pdfcolection" style="width:200px;">
             <ul class="">
 
-            <li class="fa fa-book" style="font-size:24px"></li><a href="../pdf/TF.pdf" target="_blank">TF. 2022</a><br>
+            <li class="fa fa-book" style="font-size:24px"></li><a href="static/pdf/TF.pdf" target="_blank">TF. 2022</a><br>
           
         </ul>
         </div>
