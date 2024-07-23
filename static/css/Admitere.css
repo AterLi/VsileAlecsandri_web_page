@@ -1,0 +1,213 @@
+html,body{
+	height: 100%;
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+a{
+	text-decoration: none;
+}
+.title{
+/*border: 5px solid black;*/
+	margin: 0px 0px 20px 0px;
+	font-size: 30px;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+@media screen and (max-width: 944px) { .nav_links li 
+ {display:block; text-align:center; }  }
+ /*....................................................Logo_header*/
+.logoheader{
+padding: 8px;
+  }
+.logo_image{
+  float: left;
+  padding-right: 10px;
+}
+.logo_text{
+}
+.logoheader:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 400px) { .logoheader{
+ font-size: 14px;
+ }  }
+
+/*.................................................Bara de navigare */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+li,a,button{
+font-family:"Montserrat", sans-serif;
+font-weight: 500;
+font_size: 16px;
+color: #edf0f1;
+text-decoration:none;
+
+}
+
+header {
+ justify-content: space-between;
+ padding: 30px 10%;
+/* border: 5px solid #ccff33;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #24252A;
+  
+}
+/*.lofo{
+cursor:pointer;
+
+}*/
+.nav_links{
+list-style:none;
+}
+.nav_links,li{
+display: inline-block;
+padding: 0px 20px;
+}
+.nav_links li a {
+transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+color: #0088a9
+}
+
+/*................................................Content*/
+.containerprim{
+  height: px;
+}
+/*.............................................FORMULAR...........................................*/
+    .containerprim{
+ /*border:5px solid red;*/
+  display: flex;
+/*align-items: center;*/
+justify-content: center ;
+padding-top: 20px;
+padding-bottom: 20px;
+ }
+ 
+  
+   /*.............................................Footer*/
+footer {
+  height: 300px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #24252A;
+   color: white;
+   padding-top: 12px;
+     
+}
+.contprincipal{
+  display: flex;
+/*align-items: center;*/
+justify-content: center;
+
+}
+.harta{
+  display: flex;
+/*align-items: center;*/
+justify-content: center;
+  border-left: 1px solid #9AA3A4;
+  margin-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.cont1, .cont3{
+  border-left: 1px solid #9AA3A4;
+}
+.cont2{
+  display: flex;
+/*align-items: center;*/
+justify-content: center;
+  border-left: 1px solid #9AA3A4;
+  padding-top: 50px;
+}
+.cont3{
+  display: flex;
+/*align-items: center;*/
+justify-content: center;
+  border-left: 1px solid #9AA3A4;
+}
+.cont1 a{
+  color: #fff;
+  transition: 1s;
+
+}
+.cont1 a:hover{
+  color: #0088a9;
+  font-size: 105%;
+  transform: scale(1.5);
+}
+.cont3 a{
+  color: #fff;
+}
+.cont3 a:hover{
+  color: #0088a9;
+  
+}
+.cont2 a{
+  color: #fff;
+  transition: 1s;
+
+}
+.cont2 a:hover{
+  color: #0088a9;
+  font-size: 105%;
+  transform: scale(1.5);
+}
+
+.copyright{
+margin-top: 70px;
+}
+/*................................Footer..grid,media.....*/
+  .contprincipal{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+gap: 50px;
+ }
+  @media screen and (max-width: 1219px) { .contprincipal  {
+ grid-template-columns: 1fr;
+ }  }
+ @media screen and (max-width: 1219px) { .contprincipal  {display: grid;
+ gap: 0;
+ }  }
+  @media screen and (max-width: 1219px) { .harta, .cont1, .cont2, .cont3{
+ border-left: 0;  
+ border-top: 1px solid #9AA3A4;
+ }  }
+ @media screen and (max-width: 1219px) { .copyright{
+ margin-top: 30px;
+ }  }
+ @media screen and (max-width: 1219px) { footer{
+  height: 670px;
+ }  }
+  @media screen and (max-width: 1219px) { .cont1{
+ padding-left: 400px;
+ }  }
+ @media screen and (max-width: 1000px) { .cont1{
+ padding-left: 260px;
+ }  }
+ @media screen and (max-width: 900px) { .cont1{
+ padding-left: 250px;
+ }  }
+ @media screen and (max-width: 844px) { .cont1{
+ padding-left: 150px;
+ }  }
+  @media screen and (max-width: 600px) { .cont1{
+ padding-left: 4px;
+ }  }
+ @media screen and (max-width: 730px) { .cont2, .cont3{
+ padding-top: 30px;
+ }  }
+

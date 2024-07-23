@@ -1,0 +1,204 @@
+html,body{
+	height: 100%;
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+a{
+	text-decoration: none;
+}
+
+.title{
+/*border: 5px solid black;*/
+	margin: 0px 0px 20px 0px;
+	font-size: 30px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size: 18px;
+}
+/*....................................................Logo_header*/
+.logoheader{
+padding: 8px;
+  }
+.logo_image{
+  float: left;
+  padding-right: 10px;
+}
+.logo_text{
+}
+.logoheader:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 400px) { .logoheader{
+ font-size: 14px;
+ }  }
+
+/*............................................Bara de navigare */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+li,a,button{
+font-family:"Montserrat", sans-serif;
+font-weight: 500;
+font_size: 16px;
+color: #edf0f1;
+text-decoration:none;
+
+}
+
+header {
+ justify-content: space-between;
+ padding: 30px 10%;
+/* border: 5px solid #ccff33;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #24252A;
+  
+}
+/*.lofo{
+cursor:pointer;
+
+}*/
+.nav_links{
+list-style:none;
+}
+.nav_links,li{
+display: inline-block;
+padding: 0px 20px;
+}
+.nav_links li a {
+transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+color: #0088a9
+}
+@media screen and (max-width: 944px) { .nav_links li 
+ {display:block; text-align:center; }  }
+/*.................................. Content pozitionare. */
+.content{
+/*border: 5px solid red;*/
+	max-width: 1330px;
+	margin: 0px auto;
+	padding: 130px 15px;
+  padding-bottom: 60px;
+display: flex;
+/*align-items: center;*/
+justify-content: center ;
+
+}
+
+.harta{
+/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);*/
+}
+.contact{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+	padding-top: 80px;
+	padding-left: 130px;
+}
+/*.................................Opacity/grid.....*/
+  .content{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+ }
+  @media screen and (max-width: 1219px) { .content  {
+ grid-template-columns: 1fr; 
+ }  }
+ @media screen and (max-width: 1219px) { .content  {
+ padding-top: 90px;
+ }  }
+
+  @media screen and (max-width: 1219px) { .harta iframe{
+ width: 100%;
+ }  }
+ @media screen and (max-width: 1219px) { .contact{
+ padding-top: 0; 
+ }  }
+ @media screen and (max-width: 800px) { .contact{
+ padding: 0;
+ }  }
+ /*.....................................Content dizain*/
+
+.contact a{
+	color: #fff;
+	transition: 1s;
+
+}
+.contact a:hover{
+	color: #0088a9;
+	font-size: 105%;
+	transform: scale(1.5);
+}
+/*.......................................Formular*/
+.name_container{
+  display: flex;
+/*align-items: center;*/
+justify-content: center ;
+}
+.content1{
+ /* border: 5px solid red;*/
+  max-width: 1330px;
+  margin: 0px auto;
+  padding: 20px 15px ;
+  padding-bottom: 100px;
+display: flex;
+/*align-items: center;*/
+justify-content: center ;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.text1{
+padding-top: 11px;
+}
+ textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #24252A;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+
+}
+
+.button:hover {
+  background-color: #555;
+}
+.button:focus {
+background-color:black;
+}
